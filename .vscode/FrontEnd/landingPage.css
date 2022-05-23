@@ -1,6 +1,6 @@
 .body{
     margin:0;
-
+    padding: 0;
 }
 .fwh-slide {
     height: 100vh;
@@ -17,11 +17,22 @@
     font-size: 20vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0;
+    padding: 0;
     text-align: center;
-    vertical-align: middle;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%); 
 }
 .ul {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
