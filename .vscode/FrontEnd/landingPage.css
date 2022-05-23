@@ -4,7 +4,7 @@
 }
 .fwh-slide {
     height: 100vh;
-    background: wheat;
+    background: grey;
     box-sizing: border-box;
     margin: 0;
 }
@@ -15,7 +15,8 @@
 
 .frontHeading {
     font-size: 20vh;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Akshar', sans-serif;
+    color: black;
     margin-top: 0;
     padding: 0;
     text-align: center;
@@ -34,5 +35,28 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    min-height: 8vh;
+    background-color: black; 
+    font-family: 'Akshar', sans-serif;
+    color: white;
 
+}
+.logo-nav {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+    /*background-color: aliceblue; */
+    justify-content: space-around;
+    width: 35%;
+    color: white;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    /* letter-spacing: 3px; */
+    font-size: 18px;
 }
