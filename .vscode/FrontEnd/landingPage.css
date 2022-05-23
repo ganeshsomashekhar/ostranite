@@ -11,12 +11,15 @@
 .fwh-slide--bg-white {
     background-color: white;
     margin: 0%;
+    background-image :url('./images/BackgroundFront/math2.jpg') ;
+    background-size: cover;
 }
 
 .frontHeading {
     font-size: 20vh;
     font-family: 'Akshar', sans-serif;
-    color: black;
+    color: white;
+    font-weight: bold;
     margin-top: 0;
     padding: 0;
     text-align: center;
@@ -39,6 +42,9 @@ nav {
     background-color: black; 
     font-family: 'Akshar', sans-serif;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 }
 .logo-nav {
