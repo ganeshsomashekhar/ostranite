@@ -1,0 +1,21 @@
+.body{
+    margin:0;
+
+}
+.fwh-slide {
+    height: 100vh;
+    background: wheat;
+    box-sizing: border-box;
+    margin: 0;
+}
+.fwh-slide--bg-white {
+    background-color: white;
+    margin: 0%;
+}
+
+.frontHeading {
+    font-size: 20vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    text-align: center;
+}
